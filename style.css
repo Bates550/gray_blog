@@ -62,7 +62,7 @@ h3, h4, h5, h6 {
  * ----------- HEADER ------------ *
  ***********************************/
 
-header {
+#masthead {
 	//background-color: #444349;
 	background-image: url(images/stardust.png);
 	background-repeat: repeat;
@@ -70,12 +70,12 @@ header {
 	border-bottom: 7px solid #191919;
 }
 
-header h1 {
+#masthead h1 {
 	padding-left: 6px;
 	float: left;
 }
 
-header h1 a {
+#masthead h1 a {
 	font-size: 35px;
 }
 
@@ -152,8 +152,13 @@ article {
 
 }
 
+article header {
+	height: 30px;
+}
+
 article h3 a {
 	font-size: 24px;
+	float: left;
 }
 
 article img {
@@ -166,7 +171,7 @@ h6 {
 	font-size: 12px;
 	padding-top: 10px;
 	padding-left: 13px;
-
+	float: right;
 }
 
 /***********************************
