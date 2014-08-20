@@ -143,12 +143,12 @@ a.button:active {
 
 article {
 	width: 550px;
-	background-color: rgba(107, 106, 114, 0.7);
+	background-color: rgba(170, 168, 185, 0.45);
 	border-radius: 2px;
 	margin-bottom: 22px;
 	padding-bottom: 15px;
-	border-bottom: 7px solid rgba(68, 67, 73, 0.25);
-	border-top: 7px solid rgba(68, 67, 73, 0.25);
+	border-bottom: 7px solid rgba(68, 67, 73, .8);
+	border-top: 7px solid rgba(68, 67, 73, .8);
 
 }
 
@@ -159,7 +159,7 @@ article h3 a {
 article img {
 	float: right;
 	margin: 15px;
-	border: 5px solid rgba(68, 67, 73, 0.25);
+	border: 5px solid rgba(68, 67, 73, .8);
 }
 
 h6 {
@@ -174,9 +174,9 @@ h6 {
  ***********************************/
 
 #side-nav {
-	background-color: rgba(107, 106, 114, 0.7);
-	border-bottom: 7px solid rgba(68, 67, 73, 0.25);
-	border-top: 7px solid rgba(68, 67, 73, 0.25);
+	background-color: rgba(170, 168, 185, 0.45);
+	border-bottom: 7px solid rgba(68, 67, 73, .8);
+	border-top: 7px solid rgba(68, 67, 73, .8);
 	border-radius: 2px;
 	width: 206px;
 	padding-bottom: 10px;
