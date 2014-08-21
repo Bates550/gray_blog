@@ -1,5 +1,5 @@
 
-@import url(http://fonts.googleapis.com/css?family=Lobster|Open+Sans|Roboto|Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Lobster|Open+Sans|Roboto);
 
 /***********************************
  * ----------- GENERAL ----------- *
@@ -16,8 +16,8 @@ html {
 }
 
 body {
-	//background-color: #a09eab;
-	background-image: url(images/older_moon.png);
+	/* Pattern from http://subtlepatterns.com/old-moon */
+	background-image: url(images/older_moon.png); 
 	background-repeat: repeat;
 }
 
@@ -63,7 +63,7 @@ h3, h4, h5, h6 {
  ***********************************/
 
 #masthead {
-	//background-color: #444349;
+	/* Pattern from http://subtlepatterns.com/stardust */
 	background-image: url(images/stardust.png);
 	background-repeat: repeat;
 	height: 45px;
